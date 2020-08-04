@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "tfar.talltallcane.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "talltallcane.refmap.json",
+  "mixins": [
+    "TallTallBambooMixin",
+    "TallTallSugarCaneMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
